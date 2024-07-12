@@ -7034,3 +7034,8 @@ i {
 .dropdown-lang .dropdown-menu li:last-child a {
   margin-bottom: 0px;
 }
+
+
+.icons_left{
+  width: 25px;
+}
