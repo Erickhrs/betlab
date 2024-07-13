@@ -6864,6 +6864,9 @@ i {
   align-items: center;
   height: calc(100vh - 630px);
 }
+.article-content__body p{
+  color: black!important;
+}
 
 .empty-message img {
   width: 110px;
