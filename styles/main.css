@@ -59,9 +59,9 @@
   --h4: clamp(1.4067rem, 2vw, 1.563rem);
   --h5: 1.0625rem;
   --h6: 1rem;
-  --base-h: 230;
-  --base-s: 89%;
-  --base-l: 65%;
+  --base-h: 35;
+  --base-s: 100%;
+  --base-l: 50%;
   --base: var(--base-h) var(--base-s) var(--base-l);
   --base-dark: var(--base-h) var(--base-s) calc(var(--base-l) - 8%);
   --accent-h: 237;
@@ -5584,7 +5584,7 @@ span.bet-count {
 
 .footer__about {
   max-width: 45ch;
-  font-size: 14px;
+  font-size: 10px;
   color: hsl(var(--dark));
 }
 
@@ -6863,6 +6863,9 @@ i {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 630px);
+}
+.article-content__body p{
+  color: black!important;
 }
 
 .empty-message img {
