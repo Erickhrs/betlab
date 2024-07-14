@@ -6103,7 +6103,7 @@
                 let finalStakeAmount = 0;
 
                 if (betType == multiBet && totalBetCount < 2) {
-                    notify('error', "Minimum of two bets are required for multi bet");
+                    notify('error', "São necessárias no mínimo duas apostas para apostas múltiplas");
                     return;
                 }
 
@@ -6116,7 +6116,7 @@
 
                 } else {
                     if (!totalBetCount) {
-                        notify('error', "Your bet slip is empty");
+                        notify('error', "Seu boletim de apostas está vazio");
                         return;
                     }
                     finalStakeAmount = 0;
