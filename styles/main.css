@@ -5576,7 +5576,7 @@ span.bet-count {
 }
 
 .footer__about {
-  max-width: 45ch;
+  max-width: 100%;
   font-size: 10px;
   color: hsl(var(--dark));
 }
